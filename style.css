@@ -1,0 +1,103 @@
+/*
+Author: Ang Yak Hng
+Date: 2 May 2019
+
+filename: style.css
+*/
+
+
+.less-is-more {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 200px;
+    margin: auto;
+    background-color: skyblue;
+}
+
+.less-is-more > h1 {
+    font-size: 90px;
+    display: block;
+}
+
+.less-is-more > p {
+    display: block;
+}
+
+/*Styling for about*/
+.about {
+    max-width: 1000px;
+    width: 90%;
+    margin: auto;
+    padding: 50px 0px;
+    overflow: auto;
+}
+
+.about > img {
+    float: left;
+    display: inline;
+    width: 20%;
+    max-width: 175px;    
+}
+
+.self-info {
+    box-sizing: border-box;
+    padding: 0px 10px;
+    float: left;
+    width: 80%;
+}
+
+/*Styling for about-family*/
+.about-family {
+    max-width: 1000px;
+    margin: auto;
+    width: 90%;
+    display: block;
+    padding: 50px 0px;
+    padding-top: 25px;
+    overflow: auto;
+    border-style: groove;
+    margin-bottom: 50px;
+}
+
+.about-family > h2 {
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 25px;
+    
+}
+
+.mom, .dad, .sis {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+.about-family img {
+    max-width: 140px;
+    width: 70%;
+}
+
+/*Responsiveness*/
+@media screen and (max-width: 550px) {
+    .about {
+        width: 95%;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .about > img {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+    
+    .self-info {
+        float: none;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+    }
+}
