@@ -11,16 +11,17 @@ filename: projects.css
     margin: auto;
     width: 90%;
     margin-top: 20px;
-    overflow: auto;
+    overflow: visible;
     max-width: 1000px;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .projects table{
-    width: 50%;
+    width: 480px;
     box-sizing: border-box;
     border-collapse: collapse;
-    margin: 20px 0px;
-    float: left;
+    margin: 20px 10px;
 }
 
 td {
@@ -33,7 +34,7 @@ td {
     color: white;
 }
 
-#wordpress p, #spigot p, #ip-address p {
+#wordpress p, #spigot p, #ip-address p, #pc-partpicker p {
     font-size: 20px;
 }
 
@@ -49,6 +50,7 @@ td > button {
 @media screen and (max-width: 900px) {
     .projects table {
         width: 100%;
+        margin: 20px 0;
     }
 }
 
