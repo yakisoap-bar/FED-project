@@ -1,6 +1,6 @@
 /*
 Author: Ang Yak Hng
-Date: 07 May 2019
+Date: 10 May 2019
 
 filename: projects.css
 */
@@ -11,14 +11,15 @@ filename: projects.css
     margin: auto;
     width: 90%;
     margin-top: 20px;
-    overflow: visible;
     max-width: 1000px;
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
+    margin-bottom: 70px;
 }
 
 .projects table{
-    width: 480px;
+    width: 47%;
     box-sizing: border-box;
     border-collapse: collapse;
     margin: 20px 10px;
@@ -34,15 +35,27 @@ td {
     color: white;
 }
 
+#spigot:hover {
+    background-color: yellowgreen;
+}
+
+#ip-address:hover {
+    background-color: rebeccapurple;
+    color: white;
+}
+
+#pc-partpicker:hover {
+    background-color: #0f0f0f;
+    color: white;
+}
+
 #wordpress p, #spigot p, #ip-address p, #pc-partpicker p {
     font-size: 20px;
 }
 
-#wordpress p > i {
-    font-size: 25px;
-}
 
-td > button {
+
+.projects button {
     margin: 5px 0;
 }
 
@@ -56,6 +69,6 @@ td > button {
 
 @media screen and (max-width: 550px) {
     .projects {
-        width: 100%;
+        width: 95%;
     }
 }

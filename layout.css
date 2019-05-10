@@ -1,6 +1,6 @@
 /*
 Author: Ang Yak Hng
-Date: 07 May 2019
+Date: 10 May 2019
 
 filename: layout.css
 */
@@ -76,6 +76,7 @@ button {
     min-width: 40px;
     text-align: center;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 footer > p {
