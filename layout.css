@@ -1,6 +1,6 @@
 /*
 Author: Ang Yak Hng
-Date: 30 Apr 2019
+Date: 10 May 2019
 
 filename: layout.css
 */
@@ -15,7 +15,7 @@ filename: layout.css
 .header {
     overflow: hidden;
     background-color: #f1f1f1;
-    padding: 5px 300px;
+    padding: 5px 100px;
     width: auto;
 }
 
@@ -55,6 +55,10 @@ footer {
     height: 70px;
     display: flex;
     justify-content:flex-start;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .social-media {
@@ -63,15 +67,16 @@ footer {
     margin: 15px;
 }
 
-.social-media button {
+button {
     font-size: 25px;
     margin: 0px 3px;
     border-style: none;
-    border-radius: 50%;
+    border-radius: 20px;
     height: 40px;
-    width: 40px;
+    min-width: 40px;
     text-align: center;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 footer > p {

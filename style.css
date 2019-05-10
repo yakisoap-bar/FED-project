@@ -1,6 +1,6 @@
 /*
 Author: Ang Yak Hng
-Date: 2 May 2019
+Date: 07 May 2019
 
 filename: style.css
 */
@@ -59,7 +59,7 @@ filename: style.css
     padding-top: 25px;
     overflow: auto;
     border-style: groove;
-    margin-bottom: 50px;
+    margin-bottom: 120px;
 }
 
 .about-family > h2 {

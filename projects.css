@@ -1,0 +1,74 @@
+/*
+Author: Ang Yak Hng
+Date: 10 May 2019
+
+filename: projects.css
+*/
+
+
+/*Project section styling*/
+.projects {
+    margin: auto;
+    width: 90%;
+    margin-top: 20px;
+    max-width: 1000px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.projects table{
+    width: 47%;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    margin: 20px 10px;
+}
+
+td {
+    border-style: solid;
+}
+
+/*Button styling for links to projects*/
+#wordpress:hover {
+    background-color: #21759b;
+    color: white;
+}
+
+#spigot:hover {
+    background-color: yellowgreen;
+}
+
+#ip-address:hover {
+    background-color: rebeccapurple;
+    color: white;
+}
+
+#pc-partpicker:hover {
+    background-color: #0f0f0f;
+    color: white;
+}
+
+#wordpress p, #spigot p, #ip-address p, #pc-partpicker p {
+    font-size: 20px;
+}
+
+
+
+.projects button {
+    margin: 5px 0;
+}
+
+/*Responsiveness*/
+@media screen and (max-width: 900px) {
+    .projects table {
+        width: 100%;
+        margin: 20px 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .projects {
+        width: 95%;
+    }
+}
