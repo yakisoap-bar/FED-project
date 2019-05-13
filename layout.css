@@ -1,6 +1,6 @@
 /*
 Author: Ang Yak Hng
-Date: 10 May 2019
+Date: 13 May 2019
 
 filename: layout.css
 */
@@ -49,6 +49,50 @@ filename: layout.css
     margin: 2px;
 }
 
+/*Splash screen styling*/
+.splash-screen {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 200px;
+    margin: auto;
+    background-color: skyblue;
+}
+
+.splash-screen > h1 {
+    font-size: 90px;
+    display: block;
+}
+
+.splash-screen > p {
+    display: block;
+}
+
+/*Project section styling*/
+.info-boxes {
+    margin: auto;
+    width: 90%;
+    margin-top: 20px;
+    max-width: 1000px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.info-boxes table{
+    width: 47%;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    margin: 20px 10px;
+}
+
+td {
+    border-style: solid;
+}
+
 /*Footer styling*/
 footer {
     background-color: #f1f1f1;
@@ -69,7 +113,7 @@ footer {
 
 button {
     font-size: 25px;
-    margin: 0px 3px;
+    margin: 3px;
     border-style: none;
     border-radius: 20px;
     height: 40px;
@@ -101,11 +145,22 @@ footer > p {
     color: #FF4301;
 }
 
+/*Form styling*/
+input {
+    height: 20px;
+    border-style: solid;
+}
+
 /*Responsiveness*/
 
 @media screen and (max-width: 900px) {
     .header {
         padding: 5px 50px;
+    }
+    
+    .info-boxes table {
+        width: 100%;
+        margin: 20px 0;
     }
 }
 
@@ -122,5 +177,9 @@ footer > p {
     
     .header-links {
         float: none;
+    }
+    
+    .info-boxes {
+        width: 95%;
     }
 }

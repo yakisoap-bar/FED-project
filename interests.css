@@ -1,0 +1,61 @@
+@charset utf-8;
+
+/*
+Author: Ang Yak Hng
+Date: 13 May 2019
+
+filename: interests.css
+*/
+
+
+/*Local splash screen styling*/
+.splash-screen {
+    background-color: #e62026;
+}
+
+.splash-screen h1 {
+    font-size: 80px;
+}
+
+/*form styling*/
+form {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+#submit {
+    font-size: 15px;
+    margin: 5px;
+    height: 30px;
+}
+
+form > input {
+    margin: 0 5px;
+}
+
+#beyond {
+    font-size: 35px
+}
+
+#beyond:hover {
+    background-color: #e62026;
+    color: white;
+}
+
+/*Responsiveness*/
+@media screen and (max-width: 900px) {
+    form {
+        justify-content: flex-start;
+        flex-flow: row;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    form {
+        justify-content: center;
+        flex-flow: column;
+    }
+}

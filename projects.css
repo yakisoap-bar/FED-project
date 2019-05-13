@@ -1,32 +1,14 @@
 /*
 Author: Ang Yak Hng
-Date: 10 May 2019
+Date: 13 May 2019
 
 filename: projects.css
 */
 
 
-/*Project section styling*/
-.projects {
-    margin: auto;
-    width: 90%;
-    margin-top: 20px;
-    max-width: 1000px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    margin-bottom: 70px;
-}
-
-.projects table{
-    width: 47%;
-    box-sizing: border-box;
-    border-collapse: collapse;
-    margin: 20px 10px;
-}
-
-td {
-    border-style: solid;
+/*Splash screen styling*/
+.splash-screen h1{
+    font-size: 80px;
 }
 
 /*Button styling for links to projects*/
@@ -61,14 +43,15 @@ td {
 
 /*Responsiveness*/
 @media screen and (max-width: 900px) {
-    .projects table {
-        width: 100%;
-        margin: 20px 0;
+    
+    .splash-screen h1 {
+        font-size: 70px;
     }
 }
 
 @media screen and (max-width: 550px) {
-    .projects {
-        width: 95%;
+    
+    .splash-screen h1 {
+        font-size: 50px;
     }
 }
