@@ -1,6 +1,6 @@
 /*
 Author: Ang Yak Hng
-Date: 13 May 2019
+Date: 14 May 2019
 
 filename: layout.css
 */
@@ -9,6 +9,7 @@ filename: layout.css
 * {
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
+    outline: none;
 }
 
 /*Header styling*/
@@ -70,7 +71,7 @@ filename: layout.css
     display: block;
 }
 
-/*Project section styling*/
+/*Info boxes styling*/
 .info-boxes {
     margin: auto;
     width: 90%;
@@ -91,6 +92,7 @@ filename: layout.css
 
 td {
     border-style: solid;
+    padding: 5px;
 }
 
 /*Footer styling*/
@@ -121,6 +123,7 @@ button {
     text-align: center;
     transition: 0.3s;
     cursor: pointer;
+    outline: none;
 }
 
 footer > p {
@@ -147,10 +150,23 @@ footer > p {
 
 /*Form styling*/
 input {
-    height: 20px;
+    height: 25px;
+    border-radius: 20px;
     border-style: solid;
+    border-color:grey;
+    padding-left: 1em;
+    outline: none;
+    transition: 0.3s;
+}
+input:focus {
+    border-color: black;
+    background-color: white;
 }
 
+input:valid {
+    background-color: white;
+    border-color: black;
+}
 /*Responsiveness*/
 
 @media screen and (max-width: 900px) {

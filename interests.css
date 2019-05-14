@@ -2,7 +2,7 @@
 
 /*
 Author: Ang Yak Hng
-Date: 13 May 2019
+Date: 14 May 2019
 
 filename: interests.css
 */
@@ -34,10 +34,23 @@ form {
 
 form > input {
     margin: 0 5px;
+    background-color: rgba(0,0,0,0.3);
+    border-color: white;
+}
+
+
+/*Styling for local info-boxes*/
+#dnd-form {
+    background-image: url(Images/DnD.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: grey;
+    background-size: contain;
+    border-color: black;
 }
 
 #beyond {
-    font-size: 35px
+    font-size: 35px;
 }
 
 #beyond:hover {
@@ -45,17 +58,28 @@ form > input {
     color: white;
 }
 
+#b99-img {
+    background-image: url('Images/b99-logo.png');
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+}
+
+#konosuba-img {
+    background-image: url(Images/konosuba.png);
+    height: 110px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 /*Responsiveness*/
 @media screen and (max-width: 900px) {
-    form {
-        justify-content: flex-start;
-        flex-flow: row;
-    }
+
 }
 
 @media screen and (max-width: 600px) {
-    form {
-        justify-content: center;
-        flex-flow: column;
-    }
+
 }

@@ -3,7 +3,7 @@
     <head>
         <!--
         Author: Ang Yak Hng
-        Date: 13 May 2019
+        Date: 14 May 2019
 
         filename: interests.html
         -->
@@ -28,7 +28,7 @@
         
         <!--Splash screen-->
         <div class='splash-screen'>
-            <h1>Hobby</h1>
+            <h1>Interesting</h1>
         </div>
         
         <!--Interests-->
@@ -42,21 +42,50 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>
-                        <form method="post">
+                    <td id='dnd-form'>
+                        <form>
                             <label for='name'>Name:</label>
-                            <input id='name' name='name' type='text'>
+                            <input id='name' name='name' type='text' required>
                             
                             <label for='email'>Email address:</label>
-                            <input id='email' name='email' type='email'>
+                            <input id='email' name='email' type='email' required>
                             
                             <button id='submit'>Submit</button>
                         </form>
+                        <p id='js-output'></p>
                     </td>
                 </tr> 
                 <tr>
                     <td>
                         <button id='beyond'><i class="fab fa-d-and-d-beyond"></i></button>
+                    </td>
+                </tr>
+            </table>
+            
+            <table>
+                <tr>
+                    <td>
+                        <h3>Shows</h3>
+                        <p>Like everyone else, I watch different shows in my free time. But, unlike some people, my taste is a little unorthodox, to say the least.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <!--b99 logo-->
+                    <td id='b99-img'></td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <p><strong><em>Nine-Nine!</em></strong> This show is a hilarious comedy series based around detectives working in a police precinct. I watch this quite often, as it is really rewatchable. If you have not seen this show yet, I highly recommend that you do so.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <!--Konosuba logo-->
+                    <td id='konosuba-img'></td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><strong><em>Ko! No! Su! Ba!</em></strong> This show is also in the comedy genre, but this time it is an anime, which means that its humour is more hilarious than if it was acted out like the previous example.</p>
                     </td>
                 </tr>
             </table>
