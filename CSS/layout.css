@@ -79,7 +79,7 @@ filename: layout.css
     max-width: 1000px;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 70px;
 }
 

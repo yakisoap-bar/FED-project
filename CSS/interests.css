@@ -2,7 +2,7 @@
 
 /*
 Author: Ang Yak Hng
-Date: 14 May 2019
+Date: 15 May 2019
 
 filename: interests.css
 */
@@ -60,7 +60,7 @@ form > input {
 
 #b99-img {
     background-image: url('Images/b99-logo.png');
-    height: 100px;
+    height: 110px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -75,11 +75,58 @@ form > input {
     background-position: center;
 }
 
+#overwatch-img {
+    background-image: url(Images/overwatch.svg);
+    height: 110px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#overwatch-description {
+    background-image: url(Images/overwatch_circle.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right -30px bottom -30px;
+}
+
+#minecraft-img {
+    background-image: url(Images/minecraft.svg), url(Images/minecraft-background.jpg);
+    height: 110px;
+    background-size: contain, cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#minecraft-info {
+    background-image: url(Images/dirt-block.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right -30px bottom -30px
+}
+
+#copyright-text {
+    font-size: 10px;
+    color: #808080;
+}
+
+#games {
+    width: 70%;
+}
+
 /*Responsiveness*/
 @media screen and (max-width: 900px) {
-
+    .splash-screen > h1 {
+        font-size: 70px;
+    }
+    
+    #games {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 600px) {
-
+    .splash-screen > h1 {
+        font-size: 60px;
+    }
 }
