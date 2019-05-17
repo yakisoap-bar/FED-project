@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!--
-        Author: Ang Yak Hng
-        Date: 15 May 2019
+    <!--
+    Author: Ang Yak Hng
+    Date: 17 May 2019
 
-        filename: interests.html
-        -->
+    filename: interests.html
+    -->
+    <head>
         <title>Projects</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="CSS/layout.css" rel="stylesheet">
@@ -33,96 +33,126 @@
         
         <!--Interests-->
         <div class='info-boxes'>
-            <!--DnD-->
-            <table>
-                <tr>
-                    <td>
-                        <h3>Dungeons &amp; Dragons</h3>
-                        <p>Every Friday, I run a D&amp;D campaign for my friends. Although I am not that good as a Dungeon Master, or DM, I am always learning how to be a better DM for my friends, so that they can have a more fun in any session I run. If you want to join us, you can indicate your interest below, or email me at <a href='mailto:angyakhng8000@gmail.com'>angyakhng8000@gmail.com</a>. I make good use of websites like D&amp;D Beyond to help augment the campaigns, as it allows me to quickly search for different things like spells and monster stats.</p>
-                        <em id='copyright-text'>Image by Wizards of the Coast from Google Images</em>
-                    </td>
-                </tr>
-                <tr>
-                    <td id='dnd-form'>
-                        <form>
-                            <label for='name'>Name:</label>
-                            <input id='name' name='name' type='text' required>
-                            
-                            <label for='email'>Email address:</label>
-                            <input id='email' name='email' type='email' required>
-                            
-                            <button id='submit'>Submit</button>
-                        </form>
-                        <p id='js-output'></p>
-                    </td>
-                </tr> 
-                <tr>
-                    <td>
-                        <button id='beyond'><i class="fab fa-d-and-d-beyond"></i></button>
-                    </td>
-                </tr>
-            </table>
             
-            <table>
-                <tr>
-                    <td>
-                        <h3>Shows</h3>
-                        <p>Like everyone else, I watch different shows in my free time. But, unlike some people, my taste is a little unorthodox, to say the least.</p>
-                    </td>
-                </tr>
-                <tr>
-                    <!--b99 logo-->
-                    <td id='b99-img'></td>
-                </tr>
-                
-                <tr>
-                    <td>
-                        <em id='copyright-text'>Image from fox.com</em>
-                        <p><strong><em>Nine-Nine!</em></strong> This show is a hilarious comedy series based around detectives working in a police precinct. I watch this quite often, as it is really rewatchable. If you have not seen this show yet, I highly recommend that you do so.</p>
-                    </td>
-                </tr>
-                <tr>
-                    <!--Konosuba logo-->
-                    <td id='konosuba-img'></td>
-                </tr>
-                <tr>
-                    <td>
-                        <p><strong><em>Ko! No! Su! Ba!</em></strong> This show is also in the comedy genre, but this time it is an anime, which means that its humour is more hilarious than if it was acted out like the previous example.</p>
-                    </td>
-                </tr>
-            </table>
+            <!--Left side-->
+            <div class='info-left'>
+                <!--Computers-->
+                <table>
+                    <tr>
+                        <td>
+                            <h3>Computer Building</h3>
+                            <p>Other than software, I love doing hardware projects as well. For example, the mentioned minecraft server is built by yours truly. To build my computers, I do thorough research on whether the parts I pick are compatible with one another. To do that, I google the information or use PC Part Picker, which is a really useful website that guides you along the building process and tells you whether your parts are compatible or not. </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href='https://pcpartpicker.com' target="_blank"><button id='pc-partpicker'><p><i class="fas fa-desktop"></i> pcpartpicker.com</p></button></a>
+                        </td>
+                    </tr>
+                </table>
+
+                 <!--Games-->
+                <table id='games'>
+                    <tr>
+                        <td>
+                            <h3>Games</h3>
+                            <p>Who doesn't love to game? I definitely don't! I play a nice variety of games, be it on PC, on mobile, et cetera. Here are some of the best games I play.</p>
+                        </td>
+                    </tr>
+
+                    <!--Overwatch-->
+                    <tr>
+                        <td>
+                            <img src='Images/overwatch.svg' alt='Overwatch image' id='overwatch-img'>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id='overwatch-description'>
+                            <em class='copyright-text'>Image from u/BlandSauce on reddit.com by ®2016 Blizzard Entertainment, Inc. All rights reserved.</em>
+                            <p><strong><em>Nerf this!</em></strong> Overwatch is a team-based shooter developed by Blizzard in 2015. It is a fast paced game, with so much happening all at once, but despite all of that, it is exhilarating playing this game. The community is really nice too, which is somewhat rare in this genre.</p>
+                        </td>
+                    </tr>
+
+                    <!--Minecraft-->
+                    <tr id='minecraft'>
+                        <td>
+                            <img src='Images/minecraft.svg' alt='Minecraft image' id='minecraft-img'>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id='minecraft-info'>
+                            <em class='copyright-text'>Image from seeklogo.com by Mojang</em>
+                            <p><strong><em>Sssssss...</em></strong> Minecraft is a hyper-successful game developed by Mojang all the way back in 2011, with tens of millions of copies sold. It slowly lost popularity over the years, but has received a strange revitalisation in recent months. I love this game to bits, since the creativity you can unleash here is unparallelled and the potential is near infinite. </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
             
-            <!--Games-->
-            <table id='games'>
-                <tr>
-                    <td>
-                        <h3>Games</h3>
-                        <p>Who doesn't love to game? I definitely don't! I play a nice variety of games, be it on PC, on mobile, et cetera. Here are some of the best games I play.</p>
-                    </td>
-                </tr>
-                
-                <!--Overwatch-->
-                <tr>
-                    <td id='overwatch-img'></td>
-                </tr>
-                <tr>
-                    <td id='overwatch-description'>
-                        <em id='copyright-text'>Image from u/BlandSauce on reddit.com by ®2016 Blizzard Entertainment, Inc. All rights reserved.</em>
-                        <p><strong><em>Nerf this!</em></strong> Overwatch is a team-based shooter developed by Blizzard in 2015. It is a fast paced game, with so much happening all at once, but despite all of that, it is exhilarating playing this game. The community is really nice too, which is somewhat rare in this genre.</p>
-                    </td>
-                </tr>
-                
-                <!--Minecraft-->
-                <tr>
-                    <td id='minecraft-img'></td>
-                </tr>
-                <tr>
-                    <td id='minecraft-info'>
-                        <em id='copyright-text'>Image from seeklogo.com by Mojang</em>
-                        <p><strong><em>Sssssss...</em></strong> Minecraft is a hyper-successful game developed by Mojang all the way back in 2011, with tens of millions of copies sold. It slowly lost popularity over the years, but has received a strange revitalisation in recent months. I love this game to bits, since the creativity you can unleash here is unparallelled and the potential is near infinite. </p>
-                    </td>
-                </tr>
-            </table>
+            <div class='info-right'>
+                <!--DnD-->
+                <table>
+                    <tr>
+                        <td>
+                            <h3>Dungeons &amp; Dragons</h3>
+                            <p>Every Friday, I run a D&amp;D campaign for my friends. Although I am not that good as a Dungeon Master, or DM, I am always learning how to be a better DM for my friends, so that they can have a more fun in any session I run. I make good use of websites like D&amp;D Beyond to help augment the campaigns, as it allows me to quickly search for different things like spells and monster stats. <strong>If you want to join me, you can indicate your interest below, or email me at <a href='mailto:angyakhng8000@gmail.com'>angyakhng8000@gmail.com</a>.</strong></p>
+                            <em class='copyright-text'>Image by Wizards of the Coast from Google Images</em>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id='dnd-form'>
+                            <form>
+                                <label for='name'>Name:</label>
+                                <input id='name' name='name' type='text' required placeholder='Your name'>
+
+                                <label for='email'>Email address:</label>
+                                <input id='email' name='email' type='email' required placeholder="name@example.com">
+
+                                <button id='submit'>Submit</button>
+                            </form>
+                            <p id='js-output'></p>
+                        </td>
+                    </tr> 
+                    <tr>
+                        <td>
+                            <button id='beyond'><i class="fab fa-d-and-d-beyond"></i></button>
+                        </td>
+                    </tr>
+                </table>
+
+                <table>
+                    <tr>
+                        <td>
+                            <h3>Shows</h3>
+                            <p>Like everyone else, I watch different shows in my free time. But, unlike some people, my taste is a little unorthodox, to say the least.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <!--b99 logo-->
+                        <td id='b99'>
+                            <img src='Images/b99-logo.png' id='b99-img' alt='brooklyn 99 logo'>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <em class='copyright-text'>Image from fox.com</em>
+                            <p><strong><em>Nine-Nine!</em></strong> This show is a hilarious comedy series based around detectives working in a police precinct. I watch this quite often, as it is really rewatchable. If you have not seen this show yet, I highly recommend that you do so.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <!--Konosuba logo-->
+                        <td>
+                            <img src='Images/konosuba.png' alt="konosuba picture" id='konosuba-img'>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong><em>Ko! No! Su! Ba!</em></strong> This show is also in the comedy genre, but this time it is an anime, which means that its humour is more hilarious than if it was acted out like the previous example.</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+           
         </div>
         
         <footer>

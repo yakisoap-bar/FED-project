@@ -1,6 +1,6 @@
 /*
 Author: Ang Yak Hng
-Date: 14 May 2019
+Date: 17 May 2019
 
 filename: layout.css
 */
@@ -73,21 +73,30 @@ filename: layout.css
 
 /*Info boxes styling*/
 .info-boxes {
-    margin: auto;
-    width: 90%;
-    margin-top: 20px;
+    overflow: auto;
     max-width: 1000px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
+    margin: auto;
     margin-bottom: 70px;
 }
 
 .info-boxes table{
-    width: 47%;
     box-sizing: border-box;
     border-collapse: collapse;
     margin: 20px 10px;
+}
+
+.info-left, .info-right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.info-left {
+    float: left;
+}
+
+.info-right {
+    float: right;
 }
 
 td {
@@ -163,6 +172,10 @@ input:focus {
     background-color: white;
 }
 
+input:focus::placeholder {
+    color: rgba(0,0,0,0.5);
+}
+
 input:valid {
     background-color: white;
     border-color: black;
@@ -174,8 +187,16 @@ input:valid {
         padding: 5px 50px;
     }
     
-    .info-boxes table {
+    .info-boxes {
+        max-width: 95%;
+    }
+    
+    .info-left, .info-right {
+        float: none;
         width: 100%;
+    }
+    
+    .info-boxes table {
         margin: 20px 0;
     }
 }

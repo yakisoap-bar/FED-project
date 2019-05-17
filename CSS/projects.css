@@ -1,6 +1,6 @@
 /*
 Author: Ang Yak Hng
-Date: 15 May 2019
+Date: 17 May 2019
 
 filename: projects.css
 */
@@ -26,16 +26,14 @@ filename: projects.css
     color: white;
 }
 
-#pc-partpicker:hover {
-    background-color: #0f0f0f;
-    color: white;
+#github:hover {
+    color: #ffffff;
+    background-color: #211F1F;
 }
 
-#wordpress p, #spigot p, #ip-address p, #pc-partpicker p {
+#wordpress, #spigot, #ip-address, #github {
     font-size: 20px;
 }
-
-
 
 .projects button {
     margin: 5px 0;
