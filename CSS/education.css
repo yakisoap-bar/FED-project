@@ -1,0 +1,35 @@
+/*
+Author: Ang Yak Hng
+Date: 21 May 2019
+
+filename: education.css
+*/
+
+/*Local info-box styling*/
+.info-boxes {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.info-boxes > table {
+    width: 70%;
+}
+
+#sst-img,#pyps-img {
+    width: 100%;
+    margin-top: 2px;
+}
+
+/*Responsiveness*/
+@media screen and (max-width: 900px) {
+    .info-boxes > table {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .info-boxes > table {
+        width: 95%;
+    }
+}

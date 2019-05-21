@@ -1,9 +1,15 @@
 /*
 Author: Ang Yak Hng
-Date: 17 May 2019
+Date: 21 May 2019
 
 filename: interests.css
 */
+
+/*Local logo styling*/
+.header > a.logo:hover {
+    background-color: #e62026;
+    color: #ffffff;
+}
 
 
 /*Local splash screen styling*/
@@ -13,6 +19,7 @@ filename: interests.css
 
 .splash-screen h1 {
     font-size: 80px;
+/*    color: #ffffff;*/
 }
 
 /*form styling*/
@@ -105,11 +112,6 @@ form > input {
     background-size: 100px;
     background-repeat: no-repeat;
     background-position: right -30px bottom -30px;
-}
-
-.copyright-text {
-    font-size: 10px;
-    color: #808080;
 }
 
 /*Responsiveness*/
