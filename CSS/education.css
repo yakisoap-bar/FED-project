@@ -5,6 +5,20 @@ Date: 21 May 2019
 filename: education.css
 */
 
+/*Local Header styling*/
+.header > a.logo:hover {
+    background-color: #6f73d2;
+}
+
+/*Local splash screen styling*/
+.splash-screen h1 {
+    font-size: 80px;
+}
+
+.splash-screen {
+    background-color: #6f73d2;
+}
+
 /*Local info-box styling*/
 .info-boxes {
     display: flex;
@@ -26,10 +40,18 @@ filename: education.css
     .info-boxes > table {
         width: 90%;
     }
+    
+    .splash-screen h1 {
+        font-size: 70px;
+    }
 }
 
 @media screen and (max-width: 550px) {
     .info-boxes > table {
         width: 95%;
+    }
+    
+    .splash-screen h1 {
+        font-size: 60px;
     }
 }

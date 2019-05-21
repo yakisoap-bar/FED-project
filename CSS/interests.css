@@ -5,21 +5,20 @@ Date: 21 May 2019
 filename: interests.css
 */
 
-/*Local logo styling*/
+/*Header styling*/
 .header > a.logo:hover {
-    background-color: #e62026;
-    color: #ffffff;
+    background-color: #83c9f4;
 }
-
 
 /*Local splash screen styling*/
-.splash-screen {
-    background-color: #e62026;
-}
 
 .splash-screen h1 {
     font-size: 80px;
 /*    color: #ffffff;*/
+}
+
+.splash-screen {
+    background-color: #83c9f4;
 }
 
 /*form styling*/

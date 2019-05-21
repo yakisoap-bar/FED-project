@@ -50,13 +50,21 @@ filename: layout.css
     transition-duration: 0.1s;
 }
 
-.header-links > a:hover {
-    background-color: #ddd;
-    color: black;
+/*Hover colours*/
+#home:hover {
+    background-color: #d9f0ff;
 }
 
-.header > a.logo:hover {
-    background-color: #87ceeb;
+#education:hover {
+    background-color: #6f73d2;
+}
+
+#projects:hover {
+    background-color: #a3d5ff;
+}
+
+#interests:hover {
+    background-color: #83c9f4;
 }
 
 /*Splash screen styling*/
@@ -68,7 +76,6 @@ filename: layout.css
     text-align: center;
     height: 200px;
     margin: auto;
-    background-color: #87ceeb;
 }
 
 .splash-screen > h1 {

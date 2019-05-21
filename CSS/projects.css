@@ -1,14 +1,22 @@
 /*
 Author: Ang Yak Hng
-Date: 17 May 2019
+Date: 21 May 2019
 
 filename: projects.css
 */
 
+/*Header styling*/
+.header > a.logo:hover {
+    background-color: #a3d5ff;
+}
 
 /*Splash screen styling*/
 .splash-screen h1{
     font-size: 80px;
+}
+
+.splash-screen {
+    background-color: #a3d5ff;
 }
 
 /*Button styling for links to projects*/

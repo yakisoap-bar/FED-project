@@ -1,9 +1,19 @@
 /*
 Author: Ang Yak Hng
-Date: 13 May 2019
+Date: 21 May 2019
 
 filename: style.css
 */
+
+/*Header styling*/
+.header > a.logo:hover {
+    background-color: #d9f0ff;
+}
+
+/*Styling for splash screen*/
+.splash-screen {
+    background-color: #d9f0ff;
+}
 
 /*Styling for about*/
 .about {
