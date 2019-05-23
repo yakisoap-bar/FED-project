@@ -1,6 +1,6 @@
 /*
 Author: Ang Yak Hng
-Date: 21 May 2019
+Date: 23 May 2019
 
 filename: layout.css
 */
@@ -25,7 +25,6 @@ filename: layout.css
 
 .header a{
     box-sizing: border-box;
-    overflow: show;
     text-decoration: none;
     color: #000000;
     text-align: center;
