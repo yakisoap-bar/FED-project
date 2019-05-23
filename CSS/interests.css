@@ -1,6 +1,6 @@
 /*
 Author: Ang Yak Hng
-Date: 21 May 2019
+Date: 23 May 2019
 
 filename: interests.css
 */
@@ -54,7 +54,7 @@ form > input {
 }
 
 /*Styling for local info-boxes*/
-#pc-partpicker p {
+#pc-partpicker {
     font-size: 20px;
 }
 
