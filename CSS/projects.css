@@ -1,6 +1,6 @@
 /*
 Author: Ang Yak Hng
-Date: 21 May 2019
+Date: 24 May 2019
 
 filename: projects.css
 */
@@ -17,6 +17,14 @@ filename: projects.css
 
 .splash-screen {
     background-color: #a3d5ff;
+}
+
+/* Info-boxes styling */
+#website-project-img, #fish, #server-img {
+    width: 100%;
+    object-position: center;
+    object-fit: contain;
+    margin-top: 2px;
 }
 
 /*Button styling for links to projects*/
